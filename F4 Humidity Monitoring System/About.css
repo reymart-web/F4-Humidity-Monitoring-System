@@ -1,0 +1,63 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Short+Stack&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Resources/Logo3.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+    header nav {
+        padding-left: 700px;
+        padding-top: 10px;
+    }
+
+        header nav a {
+            color: #fff;
+            margin-right: 5px;
+            padding: 5px 10px;
+            font-family: "Short Stack", sans-serif;
+            font-size: 17px;
+            transition: 0.2s;
+            font-weight: 500;
+        }
+
+            header nav a.active, header nav a:hover {
+                background: #Ffcc01;
+                border-radius: 20px;
+            }
+
+    header .Logo11 p {
+        text-align: left;
+        font-family: "Permanent Marker", sans-serif;
+        color: #Ffcc01;
+        display: flex;
+        font-size: 65px;
+        position: relative;
+        height: 50px;
+        z-index: 100;
+        padding-left: -750px;
+    }

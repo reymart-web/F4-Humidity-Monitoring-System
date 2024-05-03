@@ -18,7 +18,7 @@
          <a href="HomePage.aspx" >Home</a>
          <a href="#" class="active">About</a>
          <a href="Contact.aspx" >Contact</a>
-         <a href="#" >Logout</a>
+         <a href="Page_Log.aspx" >Logout</a>
      </nav>
  </header>
     <div style="background-color: paleturquoise; vertical-align: middle">

@@ -18,7 +18,7 @@
          <a href="#" class="active">Home</a>
          <a href="About.aspx">About</a>
          <a href="Contact.aspx">Contact</a>
-         <a href="Page_Log.aspx">Login</a>
+         <a href="#">Logout</a>
      </nav>
  </header>
             <div class="slider">

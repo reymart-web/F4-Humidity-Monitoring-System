@@ -8,18 +8,7 @@
      <link href="Page_Log.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-         <div class="Logo11">
-    <p>F4</p>
-</div>
-     <nav>
-        
-         <a href="Homepage.aspx" >Home1</a>
-         <a href="About.aspx">About</a>
-         <a href="Contact.aspx">Contact</a>
-         <a href="#" class="active">Login</a>
-     </nav>
- </header>
+    
    
         <div class="Login">
             <img src="Resources/Logo.png" alt="alternative Text" class="user" />

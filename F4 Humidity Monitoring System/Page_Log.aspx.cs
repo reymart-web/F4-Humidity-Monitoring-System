@@ -16,7 +16,7 @@ namespace F4_Humidity_Monitoring_System
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("~/Dashboard.aspx");
+            Response.Redirect("Homepage.aspx");
         }
     }
 }

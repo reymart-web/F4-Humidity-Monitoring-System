@@ -1,14 +1,26 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Page_Log.aspx.cs" Inherits="F4_Humidity_Monitoring_System.Page_Log" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PageLogin.aspx.cs" Inherits="F4_Humidity_Monitoring_System.PageLogin" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Login</title>
-     <link href="Page_Log.css" rel="stylesheet" />
+     <link href="PageLogin.css" rel="stylesheet" />
 </head>
 <body>
-    
+        <header>
+         <div class="Logo11">
+    <p>F4</p>
+</div>
+     <nav>
+        
+         <a href="Homepageee.aspx" >Home</a>
+         <a href="About.aspx">About</a>
+         <a href="Contact.aspx" >Contact</a>
+         <a href="Dashboard.aspx" class="active">Login</a>
+
+     </nav>
+ </header>
    
         <div class="Login">
             <img src="Resources/Logo.png" alt="alternative Text" class="user" />

@@ -1,7 +1,8 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+﻿/*Font Style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Short+Stack&display=swap');
-
 
 * {
     margin: 0;
@@ -33,7 +34,7 @@ header {
 }
 
     header nav {
-        padding-left: 700px;
+        padding-left: 601px;
         padding-top: 10px;
     }
 
@@ -63,7 +64,6 @@ header {
         z-index: 100;
         padding-left: -750px;
     }
-
 
 .Login {
     position: absolute;

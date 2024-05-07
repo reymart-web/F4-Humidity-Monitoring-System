@@ -7,11 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace F4_Humidity_Monitoring_System
 {
-    public partial class Homepage : System.Web.UI.Page
+    public partial class PageLogin : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-//Leonard
+
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("Dashboard.aspx");
         }
     }
 }

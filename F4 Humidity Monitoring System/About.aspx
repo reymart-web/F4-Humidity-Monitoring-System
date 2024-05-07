@@ -15,10 +15,10 @@
 </div>
      <nav>
         
-         <a href="HomePage.aspx" >Home</a>
+         <a href="Homepageee.aspx" >Home</a>
          <a href="#" class="active">About</a>
          <a href="Contact.aspx" >Contact</a>
-         <a href="Page_Log.aspx" >Logout</a>
+         <a href="PageLogin.aspx" >Login</a>
      </nav>
  </header>
     <div style="background-color: paleturquoise; vertical-align: middle">

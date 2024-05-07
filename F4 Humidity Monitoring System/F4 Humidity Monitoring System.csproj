@@ -72,18 +72,23 @@
     <Content Include="Contact.aspx" />
     <Content Include="Contact.css" />
     <Content Include="Dashboard.aspx" />
-    <Content Include="Homepage.aspx" />
-    <Content Include="Homepage.css" />
+    <Content Include="Dashboard.css" />
     <None Include="Resources\F42_background.jpg" />
     <None Include="Resources\HomePage1.jpg" />
     <None Include="Resources\HomePage2.jpg" />
     <None Include="Resources\HomePage3.jpg" />
     <None Include="Resources\HomePage4.jpg" />
-    <Content Include="Page_Log.aspx" />
-    <Content Include="Page_Log.css" />
+    <Content Include="HomePageee.aspx" />
+    <Content Include="HomePageee.css" />
+    <Content Include="PageLogin.aspx" />
+    <Content Include="PageLogin.css" />
     <Content Include="Resources\Logo.png" />
     <Content Include="Resources\Logo2.jpg" />
     <None Include="Resources\Logo3.jpg" />
+    <Content Include="RTPage.aspx" />
+    <Content Include="RTPage.css" />
+    <Content Include="Settings.aspx" />
+    <Content Include="Settings.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,19 +114,19 @@
       <DependentUpon>Dashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="F4.cs" />
-    <Compile Include="Homepage.aspx.cs">
-      <DependentUpon>Homepage.aspx</DependentUpon>
+    <Compile Include="HomePageee.aspx.cs">
+      <DependentUpon>HomePageee.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Homepage.aspx.designer.cs">
-      <DependentUpon>Homepage.aspx</DependentUpon>
+    <Compile Include="HomePageee.aspx.designer.cs">
+      <DependentUpon>HomePageee.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Page_Log.aspx.cs">
-      <DependentUpon>Page_Log.aspx</DependentUpon>
+    <Compile Include="PageLogin.aspx.cs">
+      <DependentUpon>PageLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Page_Log.aspx.designer.cs">
-      <DependentUpon>Page_Log.aspx</DependentUpon>
+    <Compile Include="PageLogin.aspx.designer.cs">
+      <DependentUpon>PageLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource1.Designer.cs">
@@ -133,6 +138,20 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource2.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RTPage.aspx.cs">
+      <DependentUpon>RTPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RTPage.aspx.designer.cs">
+      <DependentUpon>RTPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

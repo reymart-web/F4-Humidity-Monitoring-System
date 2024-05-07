@@ -1,0 +1,111 @@
+﻿/*Font Style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Short+Stack&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Short Stack", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+    header nav {
+        padding-left: 601px;
+        padding-top: 10px;
+    }
+
+        header nav a {
+            color: #fff;
+            margin-right: 5px;
+            padding: 5px 10px;
+            font-family: "Short Stack", sans-serif;
+            font-size: 17px;
+            transition: 0.2s;
+            font-weight: 500;
+        }
+
+            header nav a.active, header nav a:hover {
+                background: #Ffcc01;
+                border-radius: 20px;
+            }
+
+    header .Logo11 p {
+        text-align: left;
+        font-family: "Permanent Marker", sans-serif;
+        color: #Ffcc01;
+        display: flex;
+        font-size: 65px;
+        position: relative;
+        height: 50px;
+        z-index: 100;
+        padding-left: -750px;
+    }
+/* Slider Section*/
+.slider {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin-top: -50px;
+}
+
+    .slider .list .item {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        inset: 0 0 0 0;
+    }
+
+        .slider .list .item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slider .list .item .content {
+            position: absolute;
+            top: 20%;
+            width: 1140px;
+            max-width: 80%;
+            left: 41%;
+            padding-right: 30%;
+            box-sizing: border-box;
+            color: #fff;
+            text-shadow: 0 5px 10px #0004;
+            transform: translateX(-50%);
+        }
+
+            .slider .list .item .content .title,
+            .slider .list .item .content .type {
+                font-size: 4em;
+                font-weight: bold;
+                line-height: 1.3em;
+            }
+
+            .slider .list .item .content .type {
+                color: #Ffcc01;
+            }
+
+            .slider .list .item .content .description {
+                font-size: 10px;
+            }

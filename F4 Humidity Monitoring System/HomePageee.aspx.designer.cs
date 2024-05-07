@@ -11,7 +11,7 @@ namespace F4_Humidity_Monitoring_System
 {
 
 
-    public partial class Homepage
+    public partial class HomePageee
     {
     }
 }

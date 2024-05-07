@@ -15,7 +15,7 @@
 </div>
      <nav>
         
-         <a href="HomePage1.aspx" >Home</a>
+         <a href="HomePage.aspx" >Home</a>
          <a href="About.aspx">About</a>
          <a href="#" class="active">Contact</a>
          <a href="Page_Log.aspx" >Logout</a>

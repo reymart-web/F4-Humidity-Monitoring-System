@@ -15,7 +15,7 @@
 </div>
      <nav>
         
-          <a href="Settings.aspx" >Dashboard</a>
+          <a href="Dashboard.aspx" >Dashboard</a>
          <a href="RTPage.aspx">Real-Time</a>
            <a href="#" class="active">Settings</a>
          <a href="PageLogin.aspx">Logout</a>

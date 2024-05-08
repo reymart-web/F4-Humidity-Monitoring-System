@@ -30,13 +30,14 @@
                                <div class="title">Air Humidity System</div>
                                <div class="type">Green MARS</div>
                                <div class="description">
-                                   To continuously assess humidity levels both indoors and outdoors,
-                                   the air humidity monitoring
-                                   system is an essential component of the environmental monitoring
-                                   infrastructure. 
-                                   It facilitates well-informed decision-making 
-                                   with the goal of preserving optimal humidity levels 
-                                   by integrating a variety of components.
+                                   The Air Humidity System is equipped with advanced features to ensure user safety,
+                                   enable remote monitoring and control, and facilitate comprehensive environmental monitoring.
+                                   Safety measures include real-time alerts for abnormal humidity conditions, backed by fail-safe mechanisms
+                                   to prevent extreme levels and ensure user well-being. Remote operations are supported through Wi-Fi 
+                                   connectivity and other communication protocols, allowing users to monitor and adjust humidity levels
+                                   remotely from anywhere on Earth or Mars. Furthermore, the ideal system integrates with other sensors,
+                                   such as temperature, light, moisture, air quality, solar panel sensors, and environmental sensors,
+                                   to provide a holistic view of environmental conditions and enable proactive management strategies.
                                </div>
                             <div class="button">
                                 <a href="PageLogin.aspx">

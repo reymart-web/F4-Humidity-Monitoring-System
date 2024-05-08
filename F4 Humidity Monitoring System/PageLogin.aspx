@@ -34,7 +34,7 @@
          <asp:Button ID="Button1" runat="server" CssClass="btnlgn" Text="Login" OnClick="Button1_Click1" />
      
         
-         <asp:LinkButton ID="LinkButton1" runat="server" CssClass="lnkbtnlgn">Forgot Password?</asp:LinkButton>
+         <asp:LinkButton ID="LinkButton1" runat="server" CssClass="lnkbtnlgn">Sign Up</asp:LinkButton>
     </form> <br />
             <div class="footer1">
                 <p>All Rights Reserved &copy; 2024 by F4 Air Humidity System</p>

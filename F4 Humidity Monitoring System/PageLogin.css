@@ -100,9 +100,9 @@ h4 {
     color: #fff;
 }
 
-.txt1, .txt2, .btnlgn {
+.txt1, .txt2, .btnlgn, .Required1 {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .txt1, .txt2 {

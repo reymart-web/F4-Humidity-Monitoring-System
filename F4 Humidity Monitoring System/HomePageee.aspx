@@ -21,6 +21,7 @@
          <a href="PageLogin.aspx">Login</a>
      </nav>
  </header>
+
             <div class="slider">
             <div class="list">
 

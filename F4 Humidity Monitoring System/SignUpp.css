@@ -1,0 +1,124 @@
+﻿/*Font Style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Short+Stack&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #B8E2F2;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.Login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 660px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.5);
+}
+
+
+
+h4 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(255,189,61);
+}
+
+.Name, .Username, .Address, .Email, .gender, .password, .Required1 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.txt1, .txt2, .txt3, .txt4, .txt5, .txt6, .btnlgn, .btnlgn1, .Required1 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Required1 {
+    margin-bottom: 20px;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+.txt1, .txt2, .txt3, .txt4, .txt5, .txt6 {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: rgba(255,255,255,.5);
+}
+
+.Bttn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnlgn {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    margin-top: 1rem;
+    font-size: 17px;
+    color: #140c10;
+    background-color: #00c9fc;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.btnlgn1 {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    margin-top: 1rem;
+    font-size: 17px;
+    color: #140c10;
+    background-color: #00c9fc;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+
+.btnlgn:hover {
+    background-color: rgb(255,255,255);
+    transition: .3s ease-in-out;
+}
+
+
+.btnlgn1:hover {
+    background-color: rgb(255,255,255);
+    transition: .3s ease-in-out;
+}

@@ -13,5 +13,10 @@ namespace F4_Humidity_Monitoring_System
         {
             //Testhihi
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

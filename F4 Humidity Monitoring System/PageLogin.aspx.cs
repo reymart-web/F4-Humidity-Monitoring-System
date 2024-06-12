@@ -17,12 +17,26 @@ namespace F4_Humidity_Monitoring_System
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
-           
-        }
+            SqlConnection log1 = new SqlConnection(@"Data Source=LAPTOP-MAR\SQLEXPRESS;Initial Catalog=GreenMars;Integrated Security=True");
+            log1.Open();
+            SqlCommand cmd = new SqlCommand("SELECT userid FROM Registration WHERE username = @username AND password1 = @password", log1);
+            cmd.Parameters.AddWithValue("@username", TextBox1.Text);
+            cmd.Parameters.AddWithValue("@password", TextBox2.Text);
 
-        protected void TextBox2_TextChanged(object sender, EventArgs e)
-        {
+            SqlDataReader f4sdr = cmd.ExecuteReader();
+            if (f4sdr.Read())
+            {
 
+                Session["userid"] = f4sdr["userid"].ToString();
+                Response.Redirect("Dash2.aspx");
+            }
+            else
+            {
+                Label4.Text = "Incorrect Username or Password";
+            }
+
+
+            log1.Close();
         }
 
         protected void LinkButton1_Click(object sender, EventArgs e)

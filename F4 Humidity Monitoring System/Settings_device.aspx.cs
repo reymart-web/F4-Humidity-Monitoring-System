@@ -7,11 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace F4_Humidity_Monitoring_System
 {
-    public partial class Settings : System.Web.UI.Page
+    public partial class Settings_device : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+
     }
 }

@@ -1,0 +1,367 @@
+﻿/*Font Style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kiwi+Maru&family=Kreon:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Short+Stack&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #e5e5e7;
+}
+
+.D1 {
+    display: flex;
+}
+
+nav {
+    width: 95px;
+    height: 100vh;
+    background: #fff;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+}
+
+    nav:hover {
+        width: 290px;
+    }
+
+.navbar {
+    padding: 1rem;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem
+}
+
+    .logo1 img {
+        width: 45px;
+        height: 45px;
+        border-radius: 10%;
+    }
+
+    .logo1 span {
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 15px;
+        font-family: "Permanent Marker", sans-serif;
+        color: #Ffcc01;
+        text-transform: uppercase;
+    }
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(39,39,39);
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.navbar i {
+    font-size: 1.2rem;
+    color: rgb(104,103,103);
+    margin: 0 1.8rem 0 0.3rem;
+}
+
+.navbar a:hover {
+    background: rgb(238,237,237);
+    border-radius: 15px;
+    transition: 0.3s ease-out;
+}
+
+.navbar a.active, .navbar a.active:hover {
+    background: #B8E2F2;
+    border-radius: 15px;
+}
+
+.header i {
+    margin: 1.3rem 0;
+    color: rgb(68,68,68);
+}
+
+.header h1 {
+    padding-bottom: 2.5rem;
+}
+
+.LG2 {
+    padding: 1.5rem 2rem;
+    width: 100%;
+}
+
+.settings1 {
+    width: 300px;
+    height: 100vh;
+    background: #f0efe7;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+}
+
+.settings22 a {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(39,39,39);
+    font-weight: 500;
+    overflow: hidden;
+}
+
+    .settings22 a:hover {
+        background: #d0efff;
+        border-radius: 15px;
+        transition: 0.5s ease-out;
+    }
+
+    .settings22 a.active, .settings22 a.active:hover {
+        background: #B8E2F2;
+        border-radius: 15px;
+    }
+
+.Login {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    width: 550px;
+    height: 500px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.5);
+}
+
+.user {
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    top: calc(-100px/2);
+    left: calc(47% - 50px);
+    position: absolute;
+    border-radius: 100px;
+}
+
+h4 {
+    padding-left: 35%;
+    margin: 0;
+    color: rgb(255,189,61);
+    font-family: "Kreon", sans-serif;
+}
+
+.pro1 {
+    padding: 1rem;
+    position: absolute;
+}
+
+.lbl1 {
+    padding: 1rem;
+    height: 50px;
+    width: 420px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgb(0, 255, 255, 0.5);
+    margin-bottom: 0.5rem;
+}
+
+.lbl11 {
+    padding: 1rem;
+    height: 50px;
+    width: 420px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgb(0, 255, 255, 0.5);
+    margin-bottom: 0.5rem;
+}
+
+.lbl77 {
+    padding: 1rem;
+    height: 50px;
+    width: 420px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgb(0, 255, 255, 0.5);
+    margin-bottom: 0.5rem;
+}
+
+.lbl22 {
+    padding: 1rem;
+    height: 50px;
+    width: 420px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgb(0, 255, 255, 0.5);
+    margin-bottom: 0.5rem;
+}
+
+.lbl33 {
+    padding: 1rem;
+    height: 50px;
+    width: 420px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: rgb(0, 255, 255, 0.5);
+    margin-bottom: 0.5rem;
+}
+
+
+
+.name {
+    font-weight: bold;
+    font-family: "Kreon", sans-serif;
+    color: #fff;
+}
+
+
+
+::placeholder {
+    color: rgba(255,255,255,.5);
+}
+
+.switch {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 8%;
+    left: 78%;
+}
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.switch1 {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 26%;
+    left: 78%;
+}
+
+    .switch1 input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.switch2 {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 44%;
+    left: 78%;
+}
+
+    .switch2 input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.switch3 {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 62%;
+    left: 78%;
+}
+
+    .switch3 input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.switch4 {
+    position: absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 82%;
+    left: 82%;
+}
+
+
+    .switch4 input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .switch4 span {
+        color: white;
+        font-weight: bold;
+        font-family: "Kreon", sans-serif;
+    }
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+    .slider.round:before {
+        border-radius: 50%;
+    }

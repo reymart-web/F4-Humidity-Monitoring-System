@@ -29,7 +29,7 @@ namespace F4_Humidity_Monitoring_System
         {
 
 
-            using (SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-MAR\SQLEXPRESS;Initial Catalog=GreenMars;Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection(@"Data Source=f4mis.cj8migekqga8.us-east-2.rds.amazonaws.com;Initial Catalog=GreenMars;User ID=admin;Password=Tiu09484635641"))
             {
                 using (SqlCommand cmd = new SqlCommand())
                 {
@@ -138,7 +138,7 @@ namespace F4_Humidity_Monitoring_System
         }
         private void FetchData(string filter = null)
         {
-            using (SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-MAR\SQLEXPRESS;Initial Catalog=GreenMars;Integrated Security=True"))
+            using (SqlConnection conn = new SqlConnection(@"Data Source=f4mis.cj8migekqga8.us-east-2.rds.amazonaws.com;Initial Catalog=GreenMars;User ID=admin;Password=Tiu09484635641"))
             {
                 conn.Open();
                 string query = "SELECT TOP (24) * FROM GreenMars.dbo.SensorsData1";

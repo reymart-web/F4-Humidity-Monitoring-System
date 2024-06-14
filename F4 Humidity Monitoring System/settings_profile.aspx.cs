@@ -20,7 +20,7 @@ namespace F4_Humidity_Monitoring_System
                 if (userId != null)
                 {
 
-                    using (SqlConnection connection = new SqlConnection(@"Data Source=LAPTOP-MAR\SQLEXPRESS;Initial Catalog=GreenMars;Integrated Security=True"))
+                    using (SqlConnection connection = new SqlConnection(@"Data Source=f4mis.cj8migekqga8.us-east-2.rds.amazonaws.com;Initial Catalog=GreenMars;User ID=admin;Password=Tiu09484635641"))
                     {
                         string query = "SELECT fullname, username, gender, dob, email FROM Registration WHERE userid = @UserId";
                         SqlCommand command = new SqlCommand(query, connection);

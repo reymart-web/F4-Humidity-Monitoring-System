@@ -18,7 +18,7 @@ namespace F4_Humidity_Monitoring_System
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-MAR\SQLEXPRESS;Initial Catalog=GreenMars;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=f4mis.cj8migekqga8.us-east-2.rds.amazonaws.com;Initial Catalog=GreenMars;User ID=admin;Password=Tiu09484635641");
             con.Open();
             SqlCommand cmdf4 = new SqlCommand("insert into Registration values(@FullName,@Username,@Gender,@dob,@Email,@Password,GETDATE())", con);
             cmdf4.Parameters.AddWithValue("FullName", TextBox1.Text);

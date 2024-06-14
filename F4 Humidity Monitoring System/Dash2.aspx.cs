@@ -27,7 +27,7 @@ namespace F4_Humidity_Monitoring_System
         private void FetchData()
         {
 
-            using (SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-MAR\SQLEXPRESS;Initial Catalog=GreenMars;Integrated Security=True"))
+            using (SqlConnection conn = new SqlConnection(@"Data Source=f4mis.cj8migekqga8.us-east-2.rds.amazonaws.com;Initial Catalog=GreenMars;User ID=admin;Password=Tiu09484635641"))
             {
                 conn.Open();
                 string query = "SELECT * FROM SensorsData1 WHERE Hour1 >= @startHour";
